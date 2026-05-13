@@ -116,8 +116,8 @@ def cartoonize_image(input_path, output_path):
 
 if __name__ == "__main__":
     # Default paths
-    input_img = "image_test.jpeg"
-    output_img = "image_testoutput.png"
+    input_img = "input/image.png"
+    output_img = "output/image.png"
     
     # Allow passing input path as an argument
     if len(sys.argv) > 1:
